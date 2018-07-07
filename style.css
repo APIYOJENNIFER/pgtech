@@ -1,0 +1,180 @@
+#wrapper{
+	background-color: #ffffff;
+	padding: 10px;
+	border-radius: 10px;
+	/*opacity: 0.8;*/
+}
+head{
+	
+	padding: 5px;
+}
+
+.tab	{
+	clear: both; 
+ 	font-size: 20px; 
+	background-color: #000000;
+	border-radius: 25px;
+
+
+ }
+
+.tab ul	{ 
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.tab ul li	{
+	
+	display: inline-block; 
+	
+
+}
+
+.tab	ul li a {
+	border-radius: 25px;
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px #000 solid;
+
+	}
+.tab a:link	    {	
+    display: inline-block;
+    padding: 7px 20px;
+    text-align: center;
+   /* background-color: #212121;*/
+    
+	 }
+.tab a:visited	{	
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+.tab a:hover	{	
+	color: #000000;
+	background-color: #ff9800; 
+	
+	                
+	            }
+
+
+.tab a:active	{	
+	color: #d1c4e9;
+	background-color:  #ff9800;
+}
+
+span{
+	color:  #000000 ;
+	font-family: Monotype Corsiva;
+	font-size: 30px;
+	
+}
+
+body{
+	/*background-color: #000000;*/
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h1{
+	/*text-shadow: 4px 4px 4px #000000;*/
+	color:  #ff9800;
+	padding-left: 10px;
+	/*font-family: Arial;*/
+	font-size: 40px;
+}
+h4{
+	color:#2196f3; 
+	font-size: 25px;
+	text-align: center;
+	
+
+	/*margin-top: 350px;*/
+	
+}
+p{
+	color: #000000;
+	font-size: 20px;
+	line-height: 1.3em;
+}
+
+section{
+	width: 30%;
+	float: right;
+	margin-right: 15px;
+	padding: 10px;
+	text-align: justify;
+	
+	
+}
+section p strong{
+	color: #ff5722; 
+	font-size: 20px;
+	text-align: center;
+
+}
+
+section .leftnav{	
+}
+section .one{	
+}
+section .leftnav1{
+}
+
+.mid p{
+	text-align: justify; 
+	padding: 10px;
+}
+.mid p strong{
+	color:#2196f3;
+	font-size: 25px;
+}
+
+.sectabt{
+	width: 40%;
+	float: right;
+	border: 2px #ff9800 solid;
+	border-radius: 10px;
+	margin-right: 60px;
+	padding: 10px;
+	/*background-color: #f8bbd0;*/
+	clear: left;
+	
+}
+
+.sectabt strong{
+	color: #ff9800;
+}
+
+.serv{
+	width: 30%;
+	margin-right: 10px;
+	float: right;
+	/*border: 1px #ccc solid;*/
+	padding: 10px;
+	border-radius: 10px;
+	clear: left;
+}
+
+.cnt{
+	text-align: center;
+}
+.footer1{
+
+	
+}
+
+
+footer{
+	padding: 10px;
+	text-align: center;
+	
+	
+}
+.headicon ul li  {
+	display: inline-block;
+	text-decoration: none;
+}
