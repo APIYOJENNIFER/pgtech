@@ -220,7 +220,7 @@ h1{
 	padding-top: 1%;
 	padding-bottom: 1%;
 	/*position: absolute;*/
-	font-family: Abel;
+	font-family: Spectral;
 	font-size: 40px;
 	font-weight: bold;
 }
@@ -234,21 +234,21 @@ h4{
 	font-size: 30px;
 	text-align: center;
 	padding-top: 1%;
-	font-family: Abel;
+	font-family: Spectral;
 	/*padding-bottom: 1%;*/
 	/*margin-top: 350px;*/	
 }
 h5{
-	font-family: Abel;
+	font-family: Spectral;
 }
 p{
 	color: #000000;
 	font-size: 20px;
 	line-height: 1.3em;
-	font-family: Abel;
+	font-family: Spectral;
 }
 label{
-	font-family: Abel;
+	font-family: Slabo;
 	font-size: 20px;
 }
 
@@ -274,7 +274,7 @@ button{
 	padding: 5px;
 	font-size: 25px;
 	border-radius: 5px;
-	font-family: Abel;
+	font-family: Slabo;
 }
 /*button:hover {
 	color: #000000;
