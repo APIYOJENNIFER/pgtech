@@ -540,6 +540,20 @@ div.headleft {
 	font-size: 20px;
 }
 
+/*styles for about html*/
+
+.col-lg-6{
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+.col-lg-6 h5{
+  text-align: left;
+  font-size: 25px;
+  color: #0d47a1;
+}
+
 /*.col-lg-6{ 
   margin-right: 5%;
   text-align: justify;
