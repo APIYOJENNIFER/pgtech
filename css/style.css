@@ -341,7 +341,8 @@ div.headleft {
 /*style for the logo*/
 @media screen and (max-width: 499px){
 	div.headleft{
-		align-content: center;	}
+		/*align-content: center;*/
+		padding-left: 10%;	}
 }
 /*style for nav*/
 @media screen and (max-width: 499px){
