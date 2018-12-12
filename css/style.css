@@ -341,8 +341,18 @@ div.headleft {
 /*style for the logo*/
 @media screen and (max-width: 499px){
 	div.headleft{
-		padding-left: 6%;	}
+		align-content: center;	}
 }
+/*style for nav*/
+@media screen and (max-width: 499px){
+	.navbar{
+		padding-left: 10%;	}
+}
+@media screen and (max-width: 499px){
+	.navbar a:link{
+		padding: 2px 15px;	}
+}
+
 /*styles for index middle section*/
 .row{
   padding: 2%; /*comment out later for settings in contrast with contact2*/
