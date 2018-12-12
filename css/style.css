@@ -180,11 +180,9 @@ header{
 	
 }
 
-/*editing the navigation tabs so that styles can apply*/
-
 body{
 	
-	background: linear-gradient(#263238, #ffffff);
+	/*background: linear-gradient(#263238, #ffffff);*/
 	height: 100%;
 }
 html{
@@ -192,24 +190,6 @@ html{
 	overflow-x: hidden;
 }
 
-h1{
-	
-	/*color: #1565c0;
-	padding-left: 3%;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	font-family: Spectral;
-	font-size: 40px;
-	font-weight: bold;*/
-}
-
-/*span{
-	margin-left: 4%;
-	font-size: 80px;
-	color: #0d47a1;
-	font-family: Verdana;
-	text-shadow: 3px 6px #bbdefb;
-}*/
 h4{
 	color:#000000; 
 	font-size: 30px;
@@ -230,13 +210,8 @@ p{
 }
 label{
 	font-family: Georgia;
-	font-size: 19px;
+	font-size: 17px;
 
-}
-form{
-	/*padding-bottom: 1%;
-	background-color: #f5f5f5;
-*/	/*padding-left: 1%;*/
 }
 
 button{
@@ -249,55 +224,17 @@ button{
 	font-family: Gergia;
 }
 
-.serv{
-	width: 30%;
-	margin-right: 35px;
-	float: right;
-	padding: 10px;
-	border-radius: 10px;
-	clear: left;
-	margin-bottom: 20px;
-}
-
-.serv p{
-	text-align: justify;
-}
-.serv h5{
-	font-size: 25px;
-	text-align: center;
-	color: #0d47a1;
-}
-
 #services h4 hr{
 	margin: 10px;
 }
-.one{
-	padding: 10px;
-	background-color: #f5f5f5;
-	border: 2px #212121 solid;
-	border-radius: 10px;
 
-}
-.one p{
-	width: auto;
-}
-.one h5{
-	text-align: center;
-	font-size: 25px;
-	color: #0d47a1;
-}
-
-.cnt{
-	text-align: center;
-}
-
-.projects h4 hr{
+/*.projects h4 hr{
 	margin: 10px;
 }
 .projects p{
 	padding: 3%;
 	text-align: justify;
-}
+}*/
 footer{
 	padding: 10px;
 	background-color: #212121;
@@ -314,60 +251,7 @@ footer{
 	width: 98%;
 }
 
-
-/*styles for index1*/
-.container > div {
-  
-  font-size: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 15px;
-  width: 40%;
-  /*text-align: justify;*/
-  line-height: 1.8em;
-
-}
-.container h5{
-	text-align: center;
-	font-size: 25px;
-	color: #0d47a1;
-}
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.container ul li p{
-	/*text-align: center;*/
-	line-height: 1.8em;
-	
-}
-.container ul li{
-	list-style-type: none;
-}
-.cont > div {
-  
-  font-size: 20px;
-  margin-left: 20%;
-  margin-right: 10%;
-  padding: 15px;
-  width: 60%;
-  /*text-align: justify;*/
-  line-height: 1.8em;
-
-}
-
-.cont {
-  display: flex;
-  flex-wrap: wrap;
-}
-.cont h5{
-	text-align: center;
-	font-size: 25px;
-	color: #0d47a1;
-}
-
-/*styles for services1*/
+/*styles for services*/
 .container_serv > div {
   
   font-size: 20px;
@@ -375,7 +259,6 @@ footer{
   margin-right: 40px;
   padding: 20px;
   width: 340px;
-  /*text-align: justify;*/
   line-height: 1.8em;
 
 }
@@ -389,27 +272,7 @@ footer{
   flex-wrap: wrap;
 }
 
-/*styles for contact1*/
-.contact > div {
-  font-size: 20px;
-  margin-left: 60px;
-  margin-right: 40px;
-  margin-bottom: 20px;
-  padding: 20px;
-  width: 340px;
-  text-align: justify;
-  line-height: 1.8em;
-}
-.contact{
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #f5f5f5;
-}
-.contact h5{
-	color: #0d47a1;
-
-}
-/*trial style for footer*/
+/*style for footer*/
 .container-fluid p{
 	color: white;
 	text-align: left;
@@ -430,38 +293,7 @@ footer{
 	color:  #ff9800;
 	font-size: 20px;
 }
-/*styles for about1*/
-.sectabt > div{
-	font-size: 20px;
-  margin-left: 8%;
-  margin-right: 1%;
-  margin-bottom: 2%;
-  padding: 1%;
-  width: 40%;
-  text-align: justify;
-  line-height: 1.8em;
 
-}
-
-.sectabt{
-	display: flex;
-  flex-wrap: wrap;
-}
-.sectabt h5{
-	text-align: center;
-	font-size: 25px;
-	color: #0d47a1;
-}
-.sectabt1{
-	/*width: 30%;*/
-}
-.sectabt1 p{
-	line-height: 2em;
-}
-.sectabt1 h5{
-	text-align: left;
-	
-}
 /*styling for the icons*/
 .list-unstyled{
 	text-align: left;
@@ -483,11 +315,10 @@ footer{
       padding-top: 70px;
   }
 
-  /*styles for H1 heading*/
+  /*styles for logo*/
 div.headleft {
 	padding-left: 3%;
-	/*padding-top: 1%;
-	padding-bottom: 1%;	*/
+	
 }
 
 /*style for hiding content past a certain width*/
@@ -506,6 +337,11 @@ div.headleft {
 	div.headicon{
 		display: none;
 	}
+}
+/*style for the logo*/
+@media screen and (max-width: 499px){
+	div.headleft{
+		padding-left: 6%;	}
 }
 /*styles for index middle section*/
 .row{
@@ -553,25 +389,4 @@ div.headleft {
   font-size: 25px;
   color: #0d47a1;
 }
-
-/*.col-lg-6{ 
-  margin-right: 5%;
-  text-align: justify;
-  display: flex;
-  flex-wrap: wrap;
-}
-*/
-
-/*.col-lg-4  {
-  
-  text-align: justify;
-  display: flex;
-  flex-wrap: wrap;
-
-}
-
-
-.col-lg-4 p{
-	font-size: 20px;
-}*/
 
