@@ -346,7 +346,7 @@ div.headleft {
 /*style for nav*/
 @media screen and (max-width: 499px){
 	.navbar{
-		padding-left: 10%;	}
+		padding-left: 5%;	}
 }
 @media screen and (max-width: 499px){
 	.navbar a:link{
